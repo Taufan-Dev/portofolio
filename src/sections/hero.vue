@@ -1,10 +1,10 @@
 <template>
   <div
-    class="text-slate-100 min-h-screen flex items-center justify-center relative overflow-hidden"
+    class="text-slate-100 px-6 md:px-16 lg:px-20 p-4 min-h-screen flex relative overflow-hidden"
   >
     <!-- BACKGROUND VECTOR -->
     <img
-      src="/assets/Vector 1.svg"
+      src="/assets/images/Vector 1.svg"
       alt=""
       class="absolute top-0 bottom-4 left-0 w-full h-full object-cover z-0"
     />
@@ -24,11 +24,9 @@
       </div>
 
       <!-- KANAN : Gambar -->
-      <div
-        class="w-80 h-80 overflow-hidden border-amber-400"
-      >
+      <div class="w-80 h-80 overflow-hidden  border-amber-400">
         <img
-          src="/assets/profile.png"
+          src="/assets/images/profile.png"
           alt="Taufan Profile"
           class="object-cover w-full h-full"
         />
